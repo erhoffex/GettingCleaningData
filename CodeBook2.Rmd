@@ -1,0 +1,38 @@
+---
+title: "CodeBook2"
+author: "ERH"
+date: "May 24, 2015"
+output: html_document
+---
+
+This is the codebook for the tidy dataset for UCI HAR User with Smartphone dataset.
+
+```{r}
+summary(cars)
+```
+
+This CODEBOOK represents a tidy dataset produced from the “Human Activity Recognition Using Smartphones Dataset, provided by the Machine Learning Repository of the Center for Machine Learning and Intelligent Systems of University of California Irvine.
+
+SUBJECT 1
+   Numeric designation of the individual who performed the tests
+       1 .. 30  Unique identifier of testing subject
+       
+ACTIVITY 1
+   Description of testing activity 
+       1  WALKING
+       2  WALKING UPSTAIRS
+       3  WALKING DOWNSTAIRS
+       4  SITTING
+       5  STANDING
+       6  LAYING 
+       
+MEAN 1
+   Mean of the measurements for each activity and subject
+   
+STD DEV 1
+   Standard deviation of the measurements for each activity and subject
+   
+
+    
+
+ 
